@@ -1,7 +1,7 @@
 # COM616-Dissertation-Project
 Logbook to keep track of research and notes for the dissertation project
 
-<u>***Technology Options***<u>
+<u> ***Technology Options*** <u>
 
 1. **Backend Framework: Flask or Django (Python)**
    - Django is a more feature-rich, high-level framework.
