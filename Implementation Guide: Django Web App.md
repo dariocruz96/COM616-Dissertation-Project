@@ -29,13 +29,14 @@ Your directory structure should look like this:
 
 
 - `CrewSchedule/`: Main project directory.
-- `myapp/`: Django app directory.
-  - `views.py`: Contains view functions.
-  - `urls.py`: Defines URL patterns for the app.
-  - `templates/`: Directory for HTML templates.
-- `CrewSchedule/`: Inner project directory.
-  - `settings.py`: Project settings file.
-  - `urls.py`: Main URL configuration.
+  - `CrewSchedule/`: Inner project directory.
+    - `settings.py`: Project settings file.
+    - `urls.py`: Main URL configuration.
+  - `myapp/`: Django app directory.
+    - `views.py`: Contains view functions.
+    - `urls.py`: Defines URL patterns for the app.
+    - `templates/`: Directory for HTML templates.
+  
 
 ### Views and URLs
 
