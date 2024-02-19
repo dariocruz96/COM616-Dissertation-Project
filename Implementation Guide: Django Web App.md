@@ -48,13 +48,15 @@ Your directory structure should look like this:
 
    def home(request):
        return render(request, 'home.html')
-# myapp/urls.py
-from django.urls import path
-from . import views
 
-urlpatterns = [
-    path('', views.home, name='home'),
-]
+2. **Define URLs**
+   - Implement url functions in `urls.py`.
+   ```python
+   # myapp/urls.py
+   from django.urls import path
+   from . import views
+
+   urlpatterns = [ path('', views.home, name='home'), ]
 <!-- myapp/templates/home.html -->
 <!DOCTYPE html>
 <html lang="en">
