@@ -2,6 +2,15 @@
 
 ### Project Setup
 
+
+1. **Set Up Your Environment**:
+   - Install Python: Make sure you have Python installed on your system. You can download it from the official website: [Python Downloads](https://www.python.org/downloads/)
+   - Install Django: You can install Django using pip, the Python package manager:
+     ```bash
+     pip install django
+     ```
+   - Install Git: Install Git if you haven't already. You can download it from [Git Downloads](https://git-scm.com/downloads).
+
 1. **Create Django Project**:
    - Use Django's command-line utility to create a new project.
      ```bash
