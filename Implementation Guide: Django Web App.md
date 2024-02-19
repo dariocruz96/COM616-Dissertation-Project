@@ -74,6 +74,7 @@ Your directory structure should look like this:
        <!-- Add more HTML content as needed -->
    </body>
    </html>
+   
 ### Run the app on port 8000
 
 1. **Run the server**
@@ -81,4 +82,6 @@ Your directory structure should look like this:
    ```python
    python manage.py runserver
 
-3. In your browser go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+2. In your browser go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+### Your Django app is ready and runing!
